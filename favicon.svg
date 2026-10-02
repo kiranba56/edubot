@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="edubot-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2F81F7" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="edubot-glow" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#2F81F7" stop-opacity="0.6" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect width="64" height="64" rx="16" fill="#161B22" />
+  <rect x="1" y="1" width="62" height="62" rx="15" stroke="#30363D" stroke-width="2" />
+  <!-- Brain / Circuit Neural Icon -->
+  <path d="M32 14C23.163 14 16 21.163 16 30C16 34.6 18.04 38.73 21.3 41.56C21.84 42.03 22.18 42.69 22.25 43.4L23.1 50.15C23.23 51.19 24.1 52 25.15 52H38.85C39.9 52 40.77 51.19 40.9 50.15L41.75 43.4C41.82 42.69 42.16 42.03 42.7 41.56C45.96 38.73 48 34.6 48 30C48 21.163 40.837 14 32 14Z" fill="url(#edubot-glow)" stroke="url(#edubot-grad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Neural nodes / Synapses -->
+  <circle cx="26" cy="28" r="2.5" fill="#2F81F7" />
+  <circle cx="38" cy="28" r="2.5" fill="#7C3AED" />
+  <circle cx="32" cy="36" r="2.5" fill="#58A6FF" />
+  <path d="M26 28L32 36L38 28" stroke="#E6EDF3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M28 47H36" stroke="#8B949E" stroke-width="2" stroke-linecap="round" />
+</svg>
